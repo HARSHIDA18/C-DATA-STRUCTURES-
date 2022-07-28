@@ -3,7 +3,7 @@ using namespace std;
 void BUBBLE(int* arr,int start,int size)
 {
 	int counter=start;
-	while   (start<size)
+	while   (counter<size)
 	{
 		for   (int i=start;i<size-counter;i++)
 		{
